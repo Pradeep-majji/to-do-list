@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  }
+  h1 {
+  color: #333;
+  }
+  input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  }
+  button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+  button:hover {
+  background-color: #45a049;
+  }
+  ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  li span {
+  flex-grow: 1;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  li.completed span {
+  text-decoration: line-through;
+  color: #888;
+  }
+  button.edit, button.delete {
+  padding: 4px 8px;
+  margin-left: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  }
+  button.edit {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  }
+  button.edit:hover {
+  background-color: #0b7dda;
+  }
+  button.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  }
+  button.delete:hover {
+  background-color: #da190b;
+  }
